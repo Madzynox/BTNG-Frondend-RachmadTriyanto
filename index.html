@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AutoNova - Showroom Mobil Modern & Terpercaya. Pilihan unit mobil terbaik, bergaransi resmi, dan inspeksi ketat 160 titik.">
+  <title>AutoNova - Showroom & E-Commerce Mobil Modern</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Pengumuman">
+    <div class="container announcement-content">
+      <div class="announcement-left">
+        <span><i class="fa-solid fa-sparkles"></i> <strong>Promo Spesial BTNG:</strong> Bunga Kredit Rendah Mulai 2.9% & Garansi Mesin 1 Tahun!</span>
+      </div>
+      <div class="announcement-right">
+        <span><i class="fa-solid fa-clock"></i> Buka Setiap Hari: 08.00 - 20.00 WIB</span>
+        <span class="divider">|</span>
+        <a href="https://wa.me/6282198091797" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Hubungi CS: +62 821-9809-1797</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Navbar -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container navbar">
+      <a href="#beranda" class="brand-logo" aria-label="AutoNova Beranda">
+        <div class="logo-icon">
+          <i class="fa-solid fa-car-burst"></i>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">AUTO<span>NOVA</span></span>
+          <span class="logo-tagline">LUXURY SHOWROOM</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#katalog" class="nav-link">Showroom Mobil</a></li>
+          <li><a href="#simulasi" class="nav-link">Simulasi Cicilan</a></li>
+          <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+          <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="btn-icon" aria-label="Ubah Tema Gelap atau Terang" title="Ubah Tema">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <!-- Wishlist Button -->
+        <button id="wishlist-btn" class="btn-icon wishlist-trigger" aria-label="Buka Mobil Favorit" title="Favorit Saya">
+          <i class="fa-solid fa-heart"></i>
+          <span class="badge-count" id="wishlist-count">0</span>
+        </button>
+
+        <!-- CTA Test Drive -->
+        <a href="#katalog" class="btn btn-primary btn-sm cta-header-btn">
+          <span>Jelajahi Mobil</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="btn-icon mobile-toggle-btn" aria-label="Buka Menu Navigasi">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="beranda">
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-glow"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-gem"></i>
+          <span>Showroom Mobil Mewah &amp; Terverifikasi #1 Indonesia</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Definisi Kemewahan &amp; Performa <span class="gradient-text">Mobil Impian Anda</span>
+        </h1>
+        
+        <p class="hero-description">
+          AutoNova menghadirkan kurasi kendaraan premium, teknologi hybrid futuristik, hingga mobil listrik modern dengan inspeksi ketat 160 titik dan jaminan garansi resmi terlengkap.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#katalog" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-car-rear"></i>
+            <span>Jelajahi Showroom</span>
+          </a>
+          <a href="#simulasi" class="btn btn-outline btn-lg">
+            <i class="fa-solid fa-calculator"></i>
+            <span>Simulasi Cicilan</span>
+          </a>
+        </div>
+
+        <div class="hero-guarantees">
+          <span><i class="fa-solid fa-circle-check text-success"></i> Bebas Banjir &amp; Tabrakan</span>
+          <span class="dot-separator">•</span>
+          <span><i class="fa-solid fa-shield-halved text-primary"></i> Garansi Mesin 1 Tahun</span>
+          <span class="dot-separator">•</span>
+          <span><i class="fa-solid fa-truck-fast text-warning"></i> Gratis Test Drive ke Rumah</span>
+        </div>
+
+        <!-- Hero Stats -->
+        <div class="hero-stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-car-side"></i></div>
+            <div class="stat-info">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Unit Terjual</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="stat-info">
+              <span class="stat-number">160</span>
+              <span class="stat-label">Titik Inspeksi</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-handshake"></i></div>
+            <div class="stat-info">
+              <span class="stat-number">99.8%</span>
+              <span class="stat-label">Kepuasan Klien</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="stat-info">
+              <span class="stat-number">1 Tahun</span>
+              <span class="stat-label">Garansi Resmi</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand Logos Highlight -->
+        <div class="hero-brand-marquee">
+          <span class="marquee-title">Brand Resmi Tersedia di Showroom:</span>
+          <div class="marquee-track">
+            <span class="brand-pill"><i class="fa-solid fa-car"></i> TOYOTA</span>
+            <span class="brand-pill"><i class="fa-solid fa-car"></i> HONDA</span>
+            <span class="brand-pill"><i class="fa-solid fa-bolt"></i> BYD EV</span>
+            <span class="brand-pill"><i class="fa-solid fa-car"></i> HYUNDAI</span>
+            <span class="brand-pill"><i class="fa-solid fa-car"></i> MAZDA</span>
+            <span class="brand-pill"><i class="fa-solid fa-car"></i> MITSUBISHI</span>
+            <span class="brand-pill"><i class="fa-solid fa-leaf"></i> WULING EV</span>
+            <span class="brand-pill"><i class="fa-solid fa-car"></i> SUZUKI</span>
+            <span class="brand-pill"><i class="fa-solid fa-car"></i> DAIHATSU</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showroom & Catalog Section (Integrasi API Wajib) -->
+    <section class="section catalog-section" id="katalog">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="badge-tag">
+            <i class="fa-solid fa-database"></i>
+            <span>Live Data Sync</span>
+          </div>
+          <h2 class="section-title">Koleksi Showroom Mobil</h2>
+          <p class="section-subtitle">
+            Seluruh data kendaraan diambil secara <em>realtime</em> melalui integrasi API resmi panitia menggunakan fungsi <code>fetch()</code> dan dimanipulasi secara dinamis ke dalam DOM.
+          </p>
+
+          <!-- API Live Status Badge -->
+          <div class="api-status-badge" id="api-status">
+            <span class="status-dot"></span>
+            <span class="status-text">Menghubungkan ke Endpoint API: <code>api-web.dnccudinus.org/api/mobil</code></span>
+          </div>
+        </div>
+
+        <!-- Filter & Search Control Panel -->
+        <div class="filter-panel">
+          
+          <!-- Search & Main Filters Row -->
+          <div class="filter-main-row">
+            <!-- Search Box -->
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="text" id="search-input" placeholder="Cari nama mobil atau brand... (cth: BYD, Fortuner, Ioniq)" autocomplete="off">
+              <button id="search-clear-btn" class="search-clear-btn hidden" title="Hapus pencarian">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+
+            <!-- Brand Filter -->
+            <div class="filter-group">
+              <label for="filter-brand"><i class="fa-solid fa-tag"></i> Brand</label>
+              <select id="filter-brand">
+                <option value="all">Semua Brand</option>
+                <!-- Populated dynamically via JS -->
+              </select>
+            </div>
+
+            <!-- Bahan Bakar Filter -->
+            <div class="filter-group">
+              <label for="filter-fuel"><i class="fa-solid fa-gas-pump"></i> Bahan Bakar</label>
+              <select id="filter-fuel">
+                <option value="all">Semua Bahan Bakar</option>
+                <option value="Bensin">Bensin</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Listrik">Listrik (EV)</option>
+              </select>
+            </div>
+
+            <!-- Transmisi Filter -->
+            <div class="filter-group">
+              <label for="filter-transmission"><i class="fa-solid fa-gears"></i> Transmisi</label>
+              <select id="filter-transmission">
+                <option value="all">Semua Transmisi</option>
+                <option value="Matic">Matic</option>
+                <option value="CVT">CVT</option>
+                <option value="Manual">Manual</option>
+              </select>
+            </div>
+
+            <!-- Status Filter -->
+            <div class="filter-group">
+              <label for="filter-status"><i class="fa-solid fa-circle-check"></i> Status Unit</label>
+              <select id="filter-status">
+                <option value="all">Semua Status</option>
+                <option value="tersedia">Tersedia</option>
+                <option value="sold">Terjual (Sold)</option>
+              </select>
+            </div>
+
+            <!-- Sort By -->
+            <div class="filter-group">
+              <label for="sort-by"><i class="fa-solid fa-arrow-down-short-wide"></i> Urutkan</label>
+              <select id="sort-by">
+                <option value="default">Default (Urutan API)</option>
+                <option value="price-asc">Harga: Terendah ke Tertinggi</option>
+                <option value="price-desc">Harga: Tertinggi ke Terendah</option>
+                <option value="year-desc">Tahun: Terbaru ke Terlama</option>
+                <option value="name-asc">Nama: A ke Z</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Quick Category Badges & Reset Row -->
+          <div class="filter-secondary-row">
+            <div class="quick-tags" id="quick-tags">
+              <span class="quick-tag-label">Filter Cepat:</span>
+              <button class="quick-tag active" data-filter="all">Semua</button>
+              <button class="quick-tag" data-filter="Listrik"><i class="fa-solid fa-bolt"></i> Mobil Listrik (EV)</button>
+              <button class="quick-tag" data-filter="Hybrid"><i class="fa-solid fa-leaf"></i> Hybrid</button>
+              <button class="quick-tag" data-filter="Diesel"><i class="fa-solid fa-truck-monster"></i> Diesel SUV</button>
+              <button class="quick-tag" data-filter="tersedia"><i class="fa-solid fa-check"></i> Hanya Tersedia</button>
+            </div>
+
+            <div class="filter-results-info">
+              <span id="results-count">Memuat data mobil...</span>
+              <button id="reset-filter-btn" class="btn-link" title="Reset semua filter">
+                <i class="fa-solid fa-rotate-left"></i> Reset Filter
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Car Cards Grid (Manipulasi DOM Target) -->
+        <div class="car-grid" id="car-grid">
+          <!-- Skeleton Loading Placeholders will be rendered here first -->
+        </div>
+
+        <!-- Empty State (Shown when no filter results match) -->
+        <div class="empty-state hidden" id="empty-state">
+          <div class="empty-icon"><i class="fa-solid fa-car-tunnel"></i></div>
+          <h3>Mobil Tidak Ditemukan</h3>
+          <p>Tidak ada unit mobil yang sesuai dengan kriteria pencarian atau filter yang Anda pilih.</p>
+          <button id="empty-reset-btn" class="btn btn-primary">
+            <i class="fa-solid fa-rotate-left"></i> Reset Semua Filter
+          </button>
+        </div>
+
+        <!-- Error State (Shown if API fetch fails) -->
+        <div class="error-state hidden" id="error-state">
+          <div class="error-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+          <h3 id="error-title">Gagal Mengambil Data Mobil</h3>
+          <p id="error-message">Terjadi gangguan saat menghubungi endpoint API resmi panitia.</p>
+          <button id="retry-btn" class="btn btn-primary">
+            <i class="fa-solid fa-rotate-right"></i> Coba Hubungkan Kembali
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Credit Loan Calculator Section (Simulasi Cicilan) -->
+    <section class="section calculator-section" id="simulasi">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge-tag">
+            <i class="fa-solid fa-calculator"></i>
+            <span>Simulasi Finansial</span>
+          </div>
+          <h2 class="section-title">Kalkulator Simulasi Kredit & DP</h2>
+          <p class="section-subtitle">
+            Rencanakan anggaran pembelian mobil impian Anda dengan perhitungan cicilan bulanan yang transparan dan fleksibel.
+          </p>
+        </div>
+
+        <div class="calculator-card">
+          <div class="calc-form-column">
+            
+            <!-- Pilih Mobil Dropdown -->
+            <div class="form-group">
+              <label for="calc-car-select"><i class="fa-solid fa-car"></i> Pilih Mobil</label>
+              <select id="calc-car-select" class="form-control">
+                <option value="">Pilih mobil dari showroom...</option>
+                <!-- Populated dynamically via JS -->
+              </select>
+            </div>
+
+            <!-- Harga Kendaraan -->
+            <div class="form-group">
+              <label for="calc-car-price"><i class="fa-solid fa-money-bill-wave"></i> Harga Kendaraan (Rp)</label>
+              <input type="number" id="calc-car-price" class="form-control" value="719000000" min="50000000" step="5000000">
+            </div>
+
+            <!-- Uang Muka / DP Slider & Input -->
+            <div class="form-group">
+              <div class="slider-header">
+                <label for="calc-dp-range"><i class="fa-solid fa-percent"></i> Uang Muka (DP): <span id="dp-percentage-display" class="highlight-text">20%</span></label>
+                <span class="dp-amount-display" id="dp-amount-display">Rp 143.800.000</span>
+              </div>
+              <input type="range" id="calc-dp-range" min="10" max="60" step="5" value="20" class="range-slider">
+              <div class="range-markers">
+                <span>10%</span>
+                <span>20%</span>
+                <span>30%</span>
+                <span>40%</span>
+                <span>50%</span>
+                <span>60%</span>
+              </div>
+            </div>
+
+            <!-- Tenor (Jangka Waktu) -->
+            <div class="form-group">
+              <label><i class="fa-solid fa-calendar-days"></i> Jangka Waktu (Tenor)</label>
+              <div class="tenor-options" id="tenor-options">
+                <button type="button" class="tenor-btn" data-tenor="12">12 Bln (1 Thn)</button>
+                <button type="button" class="tenor-btn" data-tenor="24">24 Bln (2 Thn)</button>
+                <button type="button" class="tenor-btn active" data-tenor="36">36 Bln (3 Thn)</button>
+                <button type="button" class="tenor-btn" data-tenor="48">48 Bln (4 Thn)</button>
+                <button type="button" class="tenor-btn" data-tenor="60">60 Bln (5 Thn)</button>
+              </div>
+            </div>
+
+            <!-- Suku Bunga Pertahun -->
+            <div class="form-group">
+              <div class="slider-header">
+                <label for="calc-interest-rate"><i class="fa-solid fa-chart-line"></i> Estimasi Suku Bunga: <span id="interest-display" class="highlight-text">6.5% / tahun</span></label>
+              </div>
+              <input type="range" id="calc-interest-rate" min="3.0" max="12.0" step="0.5" value="6.5" class="range-slider">
+            </div>
+
+          </div>
+
+          <!-- Calculation Summary Result Column -->
+          <div class="calc-result-column">
+            <div class="result-header">
+              <span class="result-badge">Estimasi Angsuran Bulanan</span>
+              <h3 class="monthly-payment-amount" id="result-monthly-payment">Rp 18.980.000</h3>
+              <span class="monthly-payment-note">Per bulan (Sudah termasuk suku bunga flat)</span>
+            </div>
+
+            <div class="result-breakdown">
+              <div class="breakdown-item">
+                <span class="label">Harga Mobil</span>
+                <span class="value" id="result-car-price">Rp 719.000.000</span>
+              </div>
+              <div class="breakdown-item">
+                <span class="label">Uang Muka (DP)</span>
+                <span class="value" id="result-dp-amount">Rp 143.800.000</span>
+              </div>
+              <div class="breakdown-item">
+                <span class="label">Pokok Hutang Pinjaman</span>
+                <span class="value" id="result-loan-principal">Rp 575.200.000</span>
+              </div>
+              <div class="breakdown-item">
+                <span class="label">Total Bunga (Tenor)</span>
+                <span class="value" id="result-total-interest">Rp 112.164.000</span>
+              </div>
+              <div class="breakdown-item highlight">
+                <span class="label">Total Pembayaran Kredit</span>
+                <span class="value" id="result-total-payment">Rp 831.164.000</span>
+              </div>
+            </div>
+
+            <div class="calc-actions">
+              <button id="calc-apply-btn" class="btn btn-primary btn-block">
+                <i class="fa-brands fa-whatsapp"></i> Ajukan Konsultasi Kredit
+              </button>
+              <p class="calc-disclaimer">
+                *Simulasi ini merupakan estimasi awal. Perhitungan akhir dapat disesuaikan dengan ketentuan leasing / bank rekanan.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Why Choose Us (Keunggulan Showroom) -->
+    <section class="section features-section" id="keunggulan">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge-tag">
+            <i class="fa-solid fa-gem"></i>
+            <span>Standar Layanan Premium</span>
+          </div>
+          <h2 class="section-title">Mengapa Memilih AutoNova?</h2>
+          <p class="section-subtitle">
+            Kami memberikan jaminan kepuasan, keamanan transaksi, dan transparansi penuh pada setiap unit kendaraan yang kami tawarkan.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-list-check"></i></div>
+            <h3>160 Titik Inspeksi Ketat</h3>
+            <p>Setiap mobil diuji menyeluruh oleh mekanik bersertifikat. Dijamin bebas dari riwayat tabrakan parah dan rendaman banjir.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-shield-virus"></i></div>
+            <h3>Garansi Mesin & Transmisi 1 Tahun</h3>
+            <p>Perlindungan gratis selama 12 bulan untuk komponen mesin utama, sistem transmisi, dan sistem pendingin kendaraan Anda.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+            <h3>Gratis Test Drive ke Rumah</h3>
+            <p>Coba langsung mobil incaran Anda tanpa repot. Tim profesional kami akan mengantarkan unit langsung ke halaman rumah Anda.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-file-shield"></i></div>
+            <h3>Legalitas Dokumen 100% Asli</h3>
+            <p>Kelengkapan BPKB, STNK, faktur, dan buku servis resmi terverifikasi keasliannya di Samsat tanpa sengketa hukum.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+            <h3>Layanan Tukar Tambah (Trade-In)</h3>
+            <p>Tukarkan mobil lama Anda dengan unit impian di AutoNova dengan appraisal harga transparan dan penawaran tertinggi di kelasnya.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+            <h3>Layanan Darurat 24/7</h3>
+            <p>Dukungan derek darurat dan bantuan teknis gratis di jalan raya selama 1 tahun untuk setiap pelanggan AutoNova.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimoni">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge-tag">
+            <i class="fa-solid fa-star"></i>
+            <span>Ulasan Pelanggan</span>
+          </div>
+          <h2 class="section-title">Apa Kata Konsumen Kami?</h2>
+          <p class="section-subtitle">
+            Kepercayaan ribuan pelanggan yang telah membuktikan kenyamanan dan kepuasan bertransaksi di AutoNova.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testi-card">
+            <div class="testi-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-quote">
+              "Beli BYD Seal di AutoNova prosesnya super cepat! Unit datang mulus seperti baru, surat-surat lengkap dan langsung diantar ke rumah. Pelayanan sales-nya sangat edukatif menjelaskan fitur mobil listrik."
+            </p>
+            <div class="testi-user">
+              <div class="user-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="user-info">
+                <h4>Dimas Pratama</h4>
+                <span>Pembeli BYD Seal - Semarang</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-quote">
+              "Kalkulator kredit di websitenya sangat akurat dengan tawaran leasing aslinya. Tidak ada biaya tersembunyi. Fortuner GR Sport yang saya beli dalam kondisi mesin prima dan bebas bekas banjir."
+            </p>
+            <div class="testi-user">
+              <div class="user-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="user-info">
+                <h4>Hendra Wijaya</h4>
+                <span>Pembeli Fortuner 2.8 GR - Kudus</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-quote">
+              "Tukar tambah mobil lama ke Honda CR-V Hybrid berjalan mulus. Nilai taksiran mobil lama saya sangat fair dan proses serah terima unit baru hanya memakan waktu 2 hari kerja. Recommended!"
+            </p>
+            <div class="testi-user">
+              <div class="user-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="user-info">
+                <h4>Ratna Sari</h4>
+                <span>Pembeli Honda CR-V Hybrid - Salatiga</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+      <div class="container faq-container">
+        <div class="section-header text-center">
+          <div class="badge-tag">
+            <i class="fa-solid fa-circle-question"></i>
+            <span>Tanya Jawab</span>
+          </div>
+          <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+          <p class="section-subtitle">
+            Temukan jawaban cepat atas pertanyaan seputar pembelian, garansi, dan prosedur pemesanan di AutoNova.
+          </p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Apakah data mobil di website ini selalu terbarui secara realtime?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Ya, seluruh data mobil diambil secara langsung dari endpoint API resmi panitia (<code>https://api-web.dnccudinus.org/api/mobil</code>) menggunakan fungsi <code>fetch()</code> pada JavaScript Native, memastikan status stok dan harga selalu sinkron.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Bagaimana prosedur melakukan Test Drive kendaraan?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Anda dapat mengklik tombol "Booking / Test Drive" pada mobil pilihan Anda, mengisi formulir jadwal yang diinginkan, atau menghubungi tim representatif kami melalui WhatsApp untuk konfirmasi pengantaran unit ke alamat Anda.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Apa saja cakupan Garansi Resmi 1 Tahun AutoNova?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Garansi mencakup kerusakan mekanikal pada blok mesin, sistem transmisi otomatis/manual, komponen kelistrikan utama (ECU & inverter pada mobil listrik), serta sistem pendingin (radiator/AC) dengan garansi penggantian suku cadang orisinal.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Apakah bisa mengajukan pembelian secara kredit untuk semua unit?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Tentu bisa. Kami bekerjasama dengan bank dan perusahaan pembiayaan (leasing) terpercaya di Indonesia dengan DP mulai 10% dan tenor fleksibel hingga 5 tahun. Gunakan kalkulator cicilan di website ini untuk menghitung estimasi angsuran.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Bagaimana cara kerja fitur Favorit / Wishlist di website ini?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Fitur Favorit menyimpan mobil yang Anda sukai ke dalam <code>localStorage</code> peramban Anda secara instan menggunakan JavaScript murni, sehingga daftar mobil impian Anda tetap tersimpan meskipun halaman dimuat ulang.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section class="section contact-section" id="kontak">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge-tag">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>Kunjungi Kami</span>
+          </div>
+          <h2 class="section-title">Showroom & Pusat Layanan</h2>
+          <p class="section-subtitle">
+            Kunjungi showroom utama AutoNova untuk melihat langsung armada kendaraan impian Anda.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info-card">
+            <h3>Hubungi & Kunjungi Showroom</h3>
+            <p>Konsultan otomotif profesional kami siap melayani dan memberikan rekomendasi mobil terbaik sesuai kebutuhan Anda.</p>
+
+            <ul class="contact-list">
+              <li>
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>Alamat Showroom:</strong>
+                  <p>Jl. Imam Bonjol No. 207, Pendrikan Kidul, Semarang Tengah, Kota Semarang, Jawa Tengah 50131</p>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <strong>Telepon / WhatsApp:</strong>
+                  <p>+62 821-9809-1797 / 082198091797</p>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <strong>Email Resmi:</strong>
+                  <p>info@autonova-showroom.id</p>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <strong>Jam Operasional:</strong>
+                  <p>Senin - Minggu: 08.00 - 20.00 WIB (Termasuk Hari Libur)</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Message / Booking Inquiry Form -->
+          <div class="contact-form-card">
+            <h3>Kirim Pesan atau Jadwalkan Kunjungan</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="contact-name">Nama Lengkap</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="Masukkan nama Anda" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-phone">Nomor WhatsApp / HP</label>
+                <input type="tel" id="contact-phone" class="form-control" placeholder="Contoh: 082198091797" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-interest">Minat Kendaraan / Layanan</label>
+                <select id="contact-interest" class="form-control">
+                  <option value="Tanya Stok Mobil">Tanya Stok Mobil Showroom</option>
+                  <option value="Jadwal Test Drive">Jadwalkan Test Drive</option>
+                  <option value="Konsultasi Kredit / Cicilan">Konsultasi Kredit / Cicilan</option>
+                  <option value="Layanan Tukar Tambah">Layanan Tukar Tambah (Trade-In)</option>
+                  <option value="Lainnya">Pertanyaan Lainnya</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Pesan / Catatan Tambahan</label>
+                <textarea id="contact-message" class="form-control" rows="4" placeholder="Tuliskan pertanyaan Anda mengenai ketersediaan unit, warna, atau estimasi kredit..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i> Kirim Pesan Sekarang
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-icon">
+            <i class="fa-solid fa-car-burst"></i>
+          </div>
+          <span class="logo-title">AUTO<span>NOVA</span></span>
+          <p class="footer-desc">
+            Platform Showroom Mobil Modern berbasis HTML5, CSS3, dan Vanilla JavaScript terintegrasi API resmi BTNG DNCC Udinus.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#katalog">Showroom Mobil</a></li>
+            <li><a href="#simulasi">Simulasi Kredit</a></li>
+            <li><a href="#keunggulan">Keunggulan Layanan</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kategori Populer</h4>
+          <ul>
+            <li><a href="#katalog" class="footer-filter-link" data-brand="BYD">Mobil Listrik (EV)</a></li>
+            <li><a href="#katalog" class="footer-filter-link" data-fuel="Diesel">SUV Diesel Tangguh</a></li>
+            <li><a href="#katalog" class="footer-filter-link" data-fuel="Hybrid">Kendaraan Hybrid</a></li>
+            <li><a href="#katalog" class="footer-filter-link" data-trans="Matic">Mobil Transmisi Matic</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hubungi Kami</h4>
+          <ul>
+            <li><a href="https://wa.me/6282198091797" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> +62 821-9809-1797</a></li>
+            <li><span style="font-size: 0.875rem; color: var(--text-muted);"><i class="fa-solid fa-location-dot"></i> Semarang, Jawa Tengah</span></li>
+            <li><span style="font-size: 0.875rem; color: var(--text-muted);"><i class="fa-solid fa-clock"></i> 08.00 - 20.00 WIB</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Rachmad Triyanto - AutoNova Showroom. Hak Cipta Dilindungi.</p>
+        <div class="footer-tech-stack">
+          <span><i class="fa-brands fa-html5"></i> HTML5</span>
+          <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+          <span><i class="fa-brands fa-js"></i> Vanilla JS</span>
+          <span><i class="fa-solid fa-bolt"></i> Fetch API</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: Detail Mobil Pop-Up -->
+  <div class="modal-overlay hidden" id="detail-modal" role="dialog" aria-modal="true" aria-labelledby="modal-car-title">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Tutup Detail Mobil">&times;</button>
+      
+      <div class="modal-body" id="modal-body">
+        <!-- Content populated dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Booking / Test Drive Form -->
+  <div class="modal-overlay hidden" id="booking-modal" role="dialog" aria-modal="true">
+    <div class="modal-card booking-modal-card">
+      <button class="modal-close-btn" id="booking-modal-close-btn" aria-label="Tutup Formulir Booking">&times;</button>
+      
+      <div class="booking-modal-content">
+        <div class="modal-header">
+          <div class="badge-tag"><i class="fa-solid fa-key"></i> Booking Test Drive</div>
+          <h3 id="booking-car-title">Jadwalkan Test Drive</h3>
+          <p id="booking-car-subtitle">Rasakan performa dan kenyamanan unit langsung sebelum membeli.</p>
+        </div>
+
+        <form id="booking-form">
+          <input type="hidden" id="booking-car-id" value="">
+          <div class="form-group">
+            <label for="book-name">Nama Lengkap</label>
+            <input type="text" id="book-name" class="form-control" placeholder="Nama lengkap Anda" required>
+          </div>
+          <div class="form-group">
+            <label for="book-phone">Nomor WhatsApp Aktif</label>
+            <input type="tel" id="book-phone" class="form-control" placeholder="08xxxxxxxxxx" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-half">
+              <label for="book-date">Tanggal Test Drive</label>
+              <input type="date" id="book-date" class="form-control" required>
+            </div>
+            <div class="form-group col-half">
+              <label for="book-time">Waktu Kunjungan</label>
+              <select id="book-time" class="form-control" required>
+                <option value="10:00">10:00 WIB (Pagi)</option>
+                <option value="13:00">13:00 WIB (Siang)</option>
+                <option value="15:30">15:30 WIB (Sore)</option>
+                <option value="18:30">18:30 WIB (Malam)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="book-location">Lokasi Test Drive</label>
+            <select id="book-location" class="form-control">
+              <option value="showroom">Showroom Utama AutoNova (Semarang)</option>
+              <option value="home">Antar ke Rumah / Kantor Saya (Gratis)</option>
+            </select>
+          </div>
+          <div class="form-group" id="home-address-group" style="display: none;">
+            <label for="book-address">Alamat Pengantaran</label>
+            <input type="text" id="book-address" class="form-control" placeholder="Alamat lengkap tujuan test drive">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fa-solid fa-check"></i> Konfirmasi Booking Test Drive
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Drawer: Wishlist / Mobil Favorit -->
+  <aside class="drawer-overlay hidden" id="wishlist-drawer" aria-label="Daftar Mobil Favorit">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="drawer-title">
+          <i class="fa-solid fa-heart text-danger"></i>
+          <h3>Mobil Favorit Saya (<span id="drawer-count">0</span>)</h3>
+        </div>
+        <button class="drawer-close-btn" id="drawer-close-btn" aria-label="Tutup Favorit">&times;</button>
+      </div>
+
+      <div class="drawer-body" id="wishlist-items-container">
+        <!-- Rendered dynamically via JS -->
+      </div>
+
+      <div class="drawer-footer">
+        <button id="clear-wishlist-btn" class="btn btn-outline btn-block">
+          <i class="fa-solid fa-trash-can"></i> Hapus Semua Favorit
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top hidden" aria-label="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- JavaScript Native (Vanilla JS) -->
+  <script src="js/app.js"></script>
+</body>
+</html>
